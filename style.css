@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    color:whitesmoke;
+}
+
+.container {
+    max-width: 900px;
+    max-block-size: none;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background:black;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 100px; /* Adjust the size as needed */
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0edb12;
+}
+
+.movie-poster {
+    margin: 20px 0;
+}
+
+#poster-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.output-section {
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(237, 33, 33, 0.1);
+    border-radius: 5px;
+}
+
+.movie-details {
+    text-align: left;
+}
+
+#songs-list {
+    list-style:none;
+    padding: 0;
+}
+
+#songs-list li {
+    color: white;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+#h1{
+    background-size: cover;
+   width: 100px; /* Adjust the size as needed */
+    margin-bottom: 20px;
+}

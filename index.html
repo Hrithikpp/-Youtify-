@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtify</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="logo1.jpeg" alt="logo" class="logo">
+        <h1 class="logo-container">
+            <img src="youtify2.jpeg" alt="Logo" class="logo">
+          </h1>
+        <div class="search-bar">
+            <input type="text" id="movie-input" placeholder="Enter movie title">
+            <button id="search-button">Search</button>
+        </div>
+
+        <div id="movie-output" class="output-section">
+            <h2>Movie Details</h2>
+            <div class="movie-details">
+                <p id="movie-title">Title: <span></span></p>
+                <p id="movie-year">Year: <span></span></p>
+                <p id="movie-genre">Genre: <span></span></p>
+                <p id="movie-description">Description: <span></span></p>
+            </div>
+        </div>
+
+        <!-- Songs List Section -->
+        <div id="songs-output" class="output-section">
+            <h2>Songs for you</h2>
+            <ul id="songs-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
